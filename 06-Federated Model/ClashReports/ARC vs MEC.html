@@ -1,0 +1,927 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Clash Report</title>
+<style>
+          body,table {
+          font-family: Calibri, Tahoma, Verdana, Arial, sans-serif;
+          }
+
+          softBreak{
+          mso-data-placement: same-cell;
+          }
+
+          tr.headerRow{
+          font-weight: bold;
+          }
+
+          table.titleTable tr.headerRow{
+          height: 75px;
+          }
+
+          table.titleTable td.headerCell{
+          font-size: 18pt;
+          vertical-align: middle;
+          }
+
+          table.titleTable td.logoCell{
+          padding: 5px 0px 0px 0px;
+          width: 180px;
+          vertical-align: middle;
+          }
+
+          table.testSummaryTable{
+          border: 3px solid black;
+          text-align: center;
+          background-color: #eeeeee;
+          border-collapse: collapse;
+          }
+
+          table.testSummaryTable tr.headerRow{
+          background: #eeeeee;
+          }
+
+          table.testSummaryTable td{
+          border-width: 1px;
+          border-style: solid;
+          border-color: #666666;
+          }
+
+          table.testSummaryTable td.testName{
+          font-size: 16pt;
+          font-weight: bold;
+          vertical-align: middle;
+          text-align: center;
+          }
+
+          table.mainTable{
+          border-collapse: collapse;
+          }
+
+          table.mainTable tr.contentRow{
+          height: 100px;
+          }
+
+          table.mainTable tr.childRow{
+          height: 100px;
+          }
+
+          table.mainTable tr.childRowLast{
+          height: 100px;
+          }
+
+          table.mainTable tr.clashGroupRow{
+          height: 100px;
+          font-weight: bold;
+          }
+
+          table.mainTable td{
+          vertical-align: middle;
+          border: 1px solid #999999;
+          }
+
+          table.mainTable td.mergedCellHeader{
+          text-align:center;
+          }
+
+          table.mainTable tr.clashGroupRow td{
+          font-weight: bold;
+          border-top: 5px solid #333333;
+          }
+
+          table.mainTable tr.childRow td, table.mainTable tr.childRowLast td{
+          color: #707070;
+          }
+
+          table.mainTable tr.childRow td.contentCell, table.mainTable tr.childRowLast td.contentCell{
+          background-color: #ffffee;
+          }
+
+          table.mainTable tr.childRowLast td{
+          border-bottom: 5px solid #333333;
+          }
+
+          table.mainTable td.clashGroupCell{
+          background: #ffff99;
+          }
+
+          table.mainTable td.item1HeaderGroup{
+          background-color: #99ccff;
+          text-align: center;
+          }
+
+          table.mainTable td.item2HeaderGroup{
+          background-color: #ffcccc;
+          text-align: center;
+          }
+
+          table.mainTable td.item1Header{
+          background-color: #99ccff;
+          }
+
+
+          table.mainTable td.item2Header{
+          background-color: #ffcccc;
+          }
+
+          table.mainTable td.generalHeader{
+          background-color: #eeeeee;
+          }
+
+
+          table.mainTable td.item1Content{
+          background-color: #ddeeff;
+          }
+
+          table.mainTable td.item2Content{
+          background-color: #ffeeee;
+          }
+
+          table.mainTable tr.clashGroupRow td.item1Content{
+          background-color: #bbddff;
+          }
+
+          table.mainTable tr.clashGroupRow td.item2Content{
+          background-color: #ffdddd;
+          }
+
+
+          span.hiddenText{
+          color: white;
+          height: 1px;
+          font-size: 5pt;
+          }
+        </style>
+</head>
+<body>
+<table class="titleTable">
+<tr class="headerRow">
+<td class="logoCell" colspan="3"><img alt="logo" src="ARC vs MEC_files\logo.jpg"></td>
+<td class="headerCell" colspan="50">
+              Clash Report<br></td>
+<tr>
+<td></td>
+</tr>
+</tr>
+</table><br><table class="testSummaryTable">
+<tr class="headerRow">
+<td rowspan="2" colspan="2" class="testName">ARC vs MEC</td>
+<td class="headerCell">Tolerance</td>
+<td class="headerCell">Clashes</td>
+<td class="headerCell">New</td>
+<td class="headerCell">Active</td>
+<td class="headerCell">Reviewed</td>
+<td class="headerCell">Approved</td>
+<td class="headerCell">Resolved</td>
+<td class="headerCell">Type</td>
+<td class="headerCell">Status</td>
+</tr>
+<tr class="contentRow">
+<td class="contentCell">0.001m</td>
+<td class="contentCell">45</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">45</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">OK</td>
+</tr>
+</table><br><table class="mainTable">
+<tr class="headerRow">
+<td colspan="11" class="generalHeader"></td>
+<td colspan="1" class="item1HeaderGroup">Item 1</td>
+<td colspan="1" class="item2HeaderGroup">Item 2</td>
+</tr>
+<tr class="headerRow">
+<td colspan="2" class="generalHeader">Image</td>
+<td colspan="2" class="generalHeader">Clash Name</td>
+<td class="generalHeader">Status</td>
+<td class="generalHeader">Distance</td>
+<td class="generalHeader">Date Found</td>
+<td class="generalHeader">Assigned To</td>
+<td colspan="3" class="generalHeader">Clash Point</td>
+<td class="item1Header">Item ID</td>
+<td class="item2Header">Item ID</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010001.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010001.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash1</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-1.120</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:12.550,
+          y:29.935,
+          z:30.680</td>
+<td class="item1Content"><i>Element ID</i>:
+            553308</td>
+<td class="item2Content"><i>Element ID</i>:
+            1354284</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010002.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010002.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash3</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.723</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:21.975,
+          y:12.570,
+          z:25.230</td>
+<td class="item1Content"><i>Element ID</i>:
+            356376</td>
+<td class="item2Content"><i>Element ID</i>:
+            1349237</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010003.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010003.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash2</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.620</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:30.515,
+          y:8.080,
+          z:25.180</td>
+<td class="item1Content"><i>Element ID</i>:
+            355658</td>
+<td class="item2Content"><i>Element ID</i>:
+            1354004</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010004.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010004.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash4</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.620</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:22.017,
+          y:8.080,
+          z:25.180</td>
+<td class="item1Content"><i>Element ID</i>:
+            355077</td>
+<td class="item2Content"><i>Element ID</i>:
+            1353951</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010005.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010005.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash5</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.512</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:12.360,
+          y:31.895,
+          z:31.030</td>
+<td class="item1Content"><i>Element ID</i>:
+            553308</td>
+<td class="item2Content"><i>Element ID</i>:
+            1354296</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010006.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010006.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash6</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.471</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:12.250,
+          y:33.770,
+          z:29.840</td>
+<td class="item1Content"><i>Element ID</i>:
+            709679</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010007.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010007.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash7</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.469</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.270,
+          y:2.729,
+          z:30.780</td>
+<td class="item1Content"><i>Element ID</i>:
+            1354153</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010008.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010008.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash9</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.390</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:12.260,
+          y:3.129,
+          z:25.280</td>
+<td class="item1Content"><i>Element ID</i>:
+            354807</td>
+<td class="item2Content"><i>Element ID</i>:
+            1346064</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010009.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010009.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash10</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.385</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.920,
+          y:18.416,
+          z:30.730</td>
+<td class="item1Content"><i>Element ID</i>:
+            1354411</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010010.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010010.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash11</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.342</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:26.303,
+          y:8.080,
+          z:25.180</td>
+<td class="item1Content"><i>Element ID</i>:
+            355658</td>
+<td class="item2Content"><i>Element ID</i>:
+            1353978</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010011.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010011.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash12</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.323</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:9.853,
+          y:25.730,
+          z:30.680</td>
+<td class="item1Content"><i>Element ID</i>:
+            553309</td>
+<td class="item2Content"><i>Element ID</i>:
+            1354330</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010012.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010012.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash13</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.315</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.920,
+          y:31.881,
+          z:30.980</td>
+<td class="item1Content"><i>Element ID</i>:
+            1354318</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010013.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010013.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash8</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.297</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:18.274,
+          y:8.080,
+          z:25.503</td>
+<td class="item1Content"><i>Element ID</i>:
+            355077</td>
+<td class="item2Content"><i>Element ID</i>:
+            1353910</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010014.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010014.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash32</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.275</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.725,
+          y:27.150,
+          z:29.842</td>
+<td class="item1Content"><i>Element ID</i>:
+            553390</td>
+<td class="item2Content"><i>Element ID</i>:
+            709665</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010015.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010015.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash14</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.241</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.080,
+          y:0.700,
+          z:29.885</td>
+<td class="item1Content"><i>Element ID</i>:
+            709658</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010016.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010016.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash15</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.238</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:5.613,
+          y:31.425,
+          z:30.780</td>
+<td class="item1Content"><i>Element ID</i>:
+            1354383</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010017.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010017.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash16</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.234</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.080,
+          y:14.844,
+          z:31.130</td>
+<td class="item1Content"><i>Element ID</i>:
+            1345213</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010018.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010018.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash17</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.226</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:18.046,
+          y:12.570,
+          z:25.230</td>
+<td class="item1Content"><i>Element ID</i>:
+            356376</td>
+<td class="item2Content"><i>Element ID</i>:
+            1348450</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010019.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010019.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash18</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.220</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.270,
+          y:7.937,
+          z:30.780</td>
+<td class="item1Content"><i>Element ID</i>:
+            1354248</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010020.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010020.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash20</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.199</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:26.121,
+          y:15.820,
+          z:25.255</td>
+<td class="item1Content"><i>Element ID</i>:
+            356987</td>
+<td class="item2Content"><i>Element ID</i>:
+            1354088</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010021.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010021.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash21</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.195</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.730,
+          y:21.499,
+          z:30.680</td>
+<td class="item1Content"><i>Element ID</i>:
+            1354404</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010022.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010022.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash19</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.194</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.920,
+          y:26.095,
+          z:30.780</td>
+<td class="item1Content"><i>Element ID</i>:
+            553390</td>
+<td class="item2Content"><i>Element ID</i>:
+            1354390</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010023.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010023.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash28</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.189</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:16.300,
+          y:8.270,
+          z:24.381</td>
+<td class="item1Content"><i>Element ID</i>:
+            354708</td>
+<td class="item2Content"><i>Element ID</i>:
+            708361</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010024.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010024.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash25</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.189</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:17.698,
+          y:8.080,
+          z:24.385</td>
+<td class="item1Content"><i>Element ID</i>:
+            355077</td>
+<td class="item2Content"><i>Element ID</i>:
+            708371</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010025.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010025.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash22</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.189</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:33.300,
+          y:8.080,
+          z:24.381</td>
+<td class="item1Content"><i>Element ID</i>:
+            355658</td>
+<td class="item2Content"><i>Element ID</i>:
+            708483</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010026.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010026.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash27</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.189</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:24.800,
+          y:8.080,
+          z:24.381</td>
+<td class="item1Content"><i>Element ID</i>:
+            355077</td>
+<td class="item2Content"><i>Element ID</i>:
+            708461</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010027.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010027.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash29</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.189</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:26.200,
+          y:8.080,
+          z:24.385</td>
+<td class="item1Content"><i>Element ID</i>:
+            355658</td>
+<td class="item2Content"><i>Element ID</i>:
+            708473</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010028.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010028.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash23</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.181</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.080,
+          y:9.200,
+          z:29.844</td>
+<td class="item1Content"><i>Element ID</i>:
+            709671</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010029.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010029.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash24</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.177</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.080,
+          y:7.802,
+          z:29.885</td>
+<td class="item1Content"><i>Element ID</i>:
+            709674</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010030.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010030.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash26</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.177</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.080,
+          y:16.302,
+          z:29.885</td>
+<td class="item1Content"><i>Element ID</i>:
+            709668</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010031.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010031.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash30</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.175</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ERY</td>
+<td colspan="3" class="contentCell">
+          x:30.299,
+          y:15.630,
+          z:25.301</td>
+<td class="item1Content"><i>Element ID</i>:
+            377328</td>
+<td class="item2Content"><i>Element ID</i>:
+            1354064</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010032.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010032.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash31</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.175</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:7.317,
+          y:17.005,
+          z:30.580</td>
+<td class="item1Content"><i>Element ID</i>:
+            1354139</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010033.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010033.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash33</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.160</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:9.200,
+          y:33.580,
+          z:29.853</td>
+<td class="item1Content"><i>Element ID</i>:
+            709661</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010034.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010034.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash34</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.153</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:9.200,
+          y:25.920,
+          z:29.881</td>
+<td class="item1Content"><i>Element ID</i>:
+            553309</td>
+<td class="item2Content"><i>Element ID</i>:
+            709667</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010035.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010035.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash36</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.130</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:1.575,
+          y:31.950,
+          z:30.788</td>
+<td class="item1Content"><i>Element ID</i>:
+            1354305</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010036.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010036.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash37</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.127</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:9.200,
+          y:30.380,
+          z:29.872</td>
+<td class="item1Content"><i>Element ID</i>:
+            709664</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010037.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010037.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash38</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.120</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:12.102,
+          y:30.380,
+          z:29.885</td>
+<td class="item1Content"><i>Element ID</i>:
+            709679</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010038.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010038.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash35</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.104</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.730,
+          y:31.750,
+          z:29.883</td>
+<td class="item1Content"><i>Element ID</i>:
+            709662</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010039.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010039.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash39</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.095</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.080,
+          y:12.498,
+          z:30.730</td>
+<td class="item1Content"><i>Element ID</i>:
+            1354288</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010040.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010040.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash41</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.086</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:12.164,
+          y:25.730,
+          z:29.840</td>
+<td class="item1Content"><i>Element ID</i>:
+            553309</td>
+<td class="item2Content"><i>Element ID</i>:
+            709679</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010041.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010041.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash42</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.075</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.100,
+          y:16.905,
+          z:30.580</td>
+<td class="item1Content"><i>Element ID</i>:
+            1354139</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010042.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010042.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash40</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.026</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.270,
+          y:12.445,
+          z:30.675</td>
+<td class="item1Content"><i>Element ID</i>:
+            1352077</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010043.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010043.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash43</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.020</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.080,
+          y:16.275,
+          z:30.580</td>
+<td class="item1Content"><i>Element ID</i>:
+            1354264</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010044.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010044.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash44</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.020</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.080,
+          y:16.515,
+          z:30.580</td>
+<td class="item1Content"><i>Element ID</i>:
+            1350961</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="ARC vs MEC_files\cd010045.jpg "><img border="0" width="95" height="95" src="ARC vs MEC_files\cd010045.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash45</td>
+<td class="contentCell">Resolved</td>
+<td class="contentCell">-0.020</td>
+<td class="contentCell">2022/12/4 
+      20:11</td>
+<td class="contentCell">ALE</td>
+<td colspan="3" class="contentCell">
+          x:8.080,
+          y:16.810,
+          z:30.580</td>
+<td class="item1Content"><i>Element ID</i>:
+            1350961</td>
+</tr>
+</table>
+<hr><br></body>
+</html>
